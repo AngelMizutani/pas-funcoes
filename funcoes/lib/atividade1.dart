@@ -1,8 +1,8 @@
 /*
-Atividade 1
-Descontar - Receber Salario e o valor do desconto do adiantamento
-Descontar somente se houver saldo do salario
-No final informar o saldo
+Atividade 1:
+Descontar - Receber Salario e o valor do desconto do adiantamento;
+Descontar somente se houver saldo do salario;
+No final informar o saldo;
 */
 
 import 'dart:io';

@@ -5,23 +5,14 @@ show() {
 }
 
 //2 notas, calcular media e informar se está aprovado/reprovado
-void verificarAprovacao() {
+String verificarAprovacao() {
   print('nota 1: ');
-  var entrada = stdin.readLineSync();
-  var nota1 = 0.0;
-
-  if (entrada != null) {
-    nota1 = double.parse(entrada);
-  }
+  var nota1 = double.parse(stdin.readLineSync()!);
 
   print('nota 2: ');
   var nota2 = double.parse(stdin.readLineSync()!);
 
   var media = (nota1 + nota2) / 2;
 
-  if (media >= 6.0) {
-    print('Aprovado');
-  } else {
-    print('Reprovado');
-  }
+  return media >= 6 ? 'aprovado' : 'reprovado';
 }

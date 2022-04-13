@@ -2,26 +2,14 @@ import 'dart:io';
 
 void show() {
   print('funcoes com retorno e sem parametro');
+  var resultado = verificarAprovacao(6, 8);
+  print(resultado);
 }
 
 //2 notas, calcular media e informar se está aprovado/reprovado
-void verificarAprovacao() {
+String verificarAprovacao(double nota1, double nota2) {
   print('nota 1: ');
-  var entrada = stdin.readLineSync();
-  var nota1 = 0.0;
-
-  if (entrada != null) {
-    nota1 = double.parse(entrada);
-  }
-
-  print('nota 2: ');
-  var nota2 = double.parse(stdin.readLineSync()!);
-
   var media = (nota1 + nota2) / 2;
 
-  if (media >= 6.0) {
-    print('Aprovado');
-  } else {
-    print('Reprovado');
-  }
+  return media >= 6 ? 'aprovado' : 'reprovado';
 }

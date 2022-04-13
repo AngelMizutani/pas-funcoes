@@ -5,7 +5,7 @@ show() {
   verificarAprovacao(6, 5);
 }
 
-//este tipo de função dá maior liberdade
+//este tipo de função dá maior liberdade que a funçao sem parametro
 void verificarAprovacao(double nota1, double nota2) {
   var media = (nota1 + nota2) / 2;
 
