@@ -9,10 +9,10 @@ void main(List<String> arguments) {
   var saldo;
   // funcoes.show();
   // fsrsp.show();
-  // fsrcp.show();
+  fsrcp.show();
   // fcrsp.show();
   // fcrcp.show();
   // fcrsp.verificarAprovacao();
-  saldo = atividade1.descontar();
-  print('Saldo: $saldo');
+  // saldo = atividade1.descontar();
+  // print('Saldo: $saldo');
 }
