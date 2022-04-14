@@ -6,15 +6,16 @@ import 'package:funcoes/funcoes_com_retorno_e_com_parametro.dart' as fcrcp;
 import 'package:funcoes/atividade1.dart' as atividade1;
 
 void main(List<String> arguments) {
-  var saldo;
   // funcoes.show();
   // fsrsp.show();
   // fsrcp.show();
   // fcrsp.show();
-  fcrcp.show();
+  // fcrcp.show();
   // fcrsp.verificarAprovacao();
-  // saldo = atividade1.descontar();
-  // print('Saldo: $saldo');
-
   // print(fcrsp.verificarAprovacao());
+
+  // atividade1.descontar1();
+  // print("Saldo = " + (atividade1.descontar2().toString()));
+  // atividade1.descontar3(100, 200);
+  print("Saldo = " + (atividade1.descontar4(100, 200).toString()));
 }
